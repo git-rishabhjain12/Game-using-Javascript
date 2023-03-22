@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+#content {
+    width: auto;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content #start-page h1 {
+    color: black;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    transition: all 0.5s linear;
+}
+
+#content #start-page h1:hover {
+    color: white;
+}
+
+
+#content #start-page #startbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    position: relative;
+    left: 12rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+#content #start-page #startbtn:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+
+#character-page{
+    display: none;
+}
